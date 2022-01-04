@@ -2475,7 +2475,7 @@ button {
 }
 
 .w3-modal-content {
-    width: 450px !important;
+    width: 450px;
     margin: auto !important;
     background-color: #fff !important;
     position: relative !important;
@@ -2496,7 +2496,8 @@ button {
 }
 
 .w3-modal {
-    padding: 100px;
+    padding: 50px;
+    border-radius: 10px;
 }
 
 .Modal-header {
@@ -2704,4 +2705,9 @@ iframe {
 
 .testm {
     height: 590px;
+}
+
+.w3-modal {
+    height: auto;
+    justify-content: center;
 }
